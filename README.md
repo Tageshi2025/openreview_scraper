@@ -7,6 +7,7 @@
 ## 📌 数据爬取模块
 
 使用 OpenReview 官方 API 自动爬取指定会议的投稿元数据（如标题、摘要、关键词等），结果保存在结构化的 CSV 文件，位于 `data/` 目录中。
+示例结果：### [ICML2025 爬虫数据结果](https://github.com/Tageshi2025/openreview_scraper/blob/main/data/icml2025_openreview.csv)
 
 ## 🔍 主题分析模块
 
