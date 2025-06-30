@@ -3,7 +3,7 @@ import csv
 from collections import defaultdict
 import os
 
-# 1. 登录 OpenReview API v2
+# 1. 使用 OpenReview 账号密码完成登录
 client = openreview.api.OpenReviewClient(
     baseurl='https://api2.openreview.net',
     username=os.getenv('OPENREVIEW_USERNAME'),
